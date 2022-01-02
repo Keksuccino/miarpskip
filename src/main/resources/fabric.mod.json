@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "miarpskip",
+  "version": "1.0.0",
+  "name": "MineInAbyss RP Prompt Skipper",
+  "description": "Skips the resource pack prompt when joining one of the MineInAbyss servers.",
+  "environment": "client",
+  "authors": [
+    "Keksuccino"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "All rights reserved.",
+  "icon": "assets/miarpskip/icon.png",
+  "entrypoints": {
+    "main": [
+      "de.keksuccino.miarpskip.MIARPSkip"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "miarpskip.mixin.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.6",
+    "fabric": "*",
+	"minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}

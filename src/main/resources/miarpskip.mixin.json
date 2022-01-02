@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "de.keksuccino.miarpskip.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [
+    "MixinClientPlayNetworkHandler"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "miarpskip.mixin-refmap.json",
+  "minVersion": "0.8"
+}
